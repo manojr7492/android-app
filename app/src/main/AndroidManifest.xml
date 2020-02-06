@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.adminurbanservices.urban">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Forget"></activity>
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sliding" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Signup"
+            android:noHistory="true" />
+        <activity android:name=".ActivityOne" />
+        <activity android:name=".ActivityTwo" />
+        <activity android:name=".ActivityFour" />
+        <activity android:name=".ActivityOneDetail" />
+        <activity android:name=".ActivityOneDetailDetail" />
+        <activity android:name=".ActivityOneDetailDetailDetail" />
+        <activity android:name=".Search" />
+        <activity android:name=".ActivityOneDetailDetailDetailDetail" />
+        <activity android:name=".ActivityFourDetail" />
+        <activity android:name=".ActivityFourDetailDetail" />
+        <activity android:name=".ActivityFourDetailB" />
+        <activity android:name=".ActivityTwoDetail" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".VerificationActivity" />
+
+        <meta-data
+            android:name="sendotp.key"
+            android:value="283625A2GeT9dKbM5d1c5e25" />
+    </application>
+
+</manifest>

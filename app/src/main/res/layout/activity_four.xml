@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityFour">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#9b6060"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_below="@id/toolbar"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#ffffff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+
+                        <TextView
+                            android:id="@+id/name"
+                            android:layout_width="250dp"
+                            android:layout_height="30dp"
+                            android:layout_marginBottom="8dp"
+                            android:text="manoj kumar"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/email"
+                            android:layout_width="251dp"
+                            android:layout_height="30dp"
+                            android:text="manojr7492@gmail.com"
+                            android:textColor="#555"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/phone"
+                            android:layout_width="250dp"
+                            android:layout_height="30dp"
+                            android:text="6201113630"
+                            android:textColor="#555"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/image"
+                        android:layout_width="80dp"
+                        android:src="@drawable/ic_edit_black_24dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <!--
+                        <android.support.design.widget.AppBarLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+            -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <FrameLayout
+                    android:id="@+id/cardview"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp">
+
+
+                </FrameLayout>
+
+
+            </RelativeLayout>
+
+
+            <!--      </android.support.design.widget.AppBarLayout>
+      -->
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relate"
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:layout_above="@+id/bottomBar"
+            android:layout_below="@+id/topBar"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginBottom="58dp">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recylcerViewfour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                tools:layout_editor_absoluteX="745dp"
+                tools:layout_editor_absoluteY="-51dp">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="204dp"
+            android:layout_height="60dp"
+            android:layout_above="@+id/bottomBar"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="71dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/oval"
+            android:text="logout"
+            android:textColor="#e20a0a" />
+
+        <RelativeLayout
+
+
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true">
+
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavView_Bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/white_grey_border_top"
+                app:menu="@menu/bottom_navigation_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

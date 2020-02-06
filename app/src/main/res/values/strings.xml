@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Service App</string>
+    <string name="Welcome">Welcome</string>
+    <string name="logocontent">Welcome</string>
+    <string name="business1">CA for Small Bussiness</string>
+    <string name="next">Next</string>
+    <string name="myTitle">All Services</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_slide1">Know your Faculty</string>
+    <string name="desc_slide1">Find Information about Teachers/Professors in an Instant</string>
+    <string name="title_slide2">Study Content and Result</string>
+    <string name="desc_slide2">Everything you need to know about Books to be followed and instant Result update can be found here</string>
+    <string name="title_slide3">News and Events</string>
+    <string name="desc_slide3">Instant Notification about current News and Events and "much more"</string>
+
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="action_Cart">Cart</string>
+
+    <string name="sendotp_key">your_sendotp_key</string>
+    <string name="enterphonenumber">Enter your phone number</string>
+    <string name="selectcountry">Select country</string>
+    <string name="sending_sms">We\'re sending an sms to</string>
+    <string name="inprogress">Verification in\nprogress</string>
+    <string name="verified">Verification successful! Please login</string>
+    <string name="failed">Verification failed</string>
+    <string name="entercode">Please enter the code you received</string>
+
+    <string name="Rate">Rate us</string>
+    <string-array name="Ratea">
+        <item>Select</item>
+        <item>5.0</item>
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
+        <item>3.0</item>
+        <item>2.5</item>
+        <item>2.0</item>
+        <item>1.5</item>
+        <item>1.0</item>
+    </string-array>
+
+
+    <!-- bottom navigation -->
+
+    <string name="title_home">Search</string>
+    <string name="title_dashboard">My Bookings</string>
+    <string name="title_notifications">My Wallet</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
